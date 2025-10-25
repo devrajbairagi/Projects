@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+.container{
+    position: relative;
+    width:100%;
+    height: 100vh;
+
+}
+.container img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.second-section
+{
+     padding: 80px 60px;
+     text-align: center;
+     background-color: #fff;
+}
+.second-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.second-section  p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #333;
+}
+.read{
+   
+    text-align: center;
+    margin-bottom: 50px;
+     color: #333;
+}
+.line {
+   
+  width: 80vw;              /* line length */
+  height: 2px;               /* thickness */
+  background-color: black;   /* color */
+  margin: 30px auto;         /* center and add space */
+  border-radius: 2px;        /* optional smooth ends */
+}
+.head-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.head{
+  font-weight: 100;
+}
+.pro-con{
+   display: flex;              /* put divs in a row */
+  justify-content: center;    /* center horizontally */
+  align-items: center;        /* center vertically if needed */
+  gap: 20px;  
+}
+.pro-con div img{
+    width: 200px;               /* set image width */
+  height: 200px;              /* set image height */
+  border-radius: 10px;
+}
+.btn-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.btn-con button{
+    padding: 1vh 4vh;
+    background: transparent;
+   
+    border-color: #333;
+}
+.p-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.input-btn-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-btn-con
+{
+  height: 20vh;
+  gap:1vh;
+} 
+.input-btn-con input{
+  width: 25vw;
+  height: 5vh;
+  border-color: black;
+} 
+.input-btn-con button{
+  padding-right:  4vh;
+    padding-left:  4vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: transparent;
+    border: .1rem solid black;  
+}
+.footer{
+  height: 50vh;
+  width: 98.5vw;
+  background-color: #333;
+  position: relative;
+}
+.footer-con{
+  position: absolute;
+  left: 5rem;
+  top:5rem;
+}
+.footer-con p{
+  line-height: 2rem;
+  color: white;
+}
+.footer-con-right{
+   position: absolute;
+  right: 20rem;
+  top:5rem;
+}
+.footer-con-right p{
+   line-height: 2rem;
+  color: white;
+}
+.footer-con-right-right {
+   position: absolute;
+  right: 10rem;
+  top:5rem; 
+}
+.footer-con-right-right p{
+   line-height: 2rem;
+  color: white;
+}
+.input-btn-con{
+  position: relative;
+}
+#wrong-input{
+  position: absolute;
+  bottom:4vh;
+  left:26rem;
+  color: red;
+  display: none;
+}
